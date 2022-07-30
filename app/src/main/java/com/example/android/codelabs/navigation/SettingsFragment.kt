@@ -25,7 +25,7 @@ import androidx.fragment.app.Fragment
 /**
  * A simple [Fragment] subclass.
  */
-class SettingsFragment : Fragment() {
+class SettingsFragment : BaseFragment() {
 
     override fun onCreateView(
             inflater: LayoutInflater,
